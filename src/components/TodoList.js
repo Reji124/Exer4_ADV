@@ -127,7 +127,7 @@ const TodoList = () => {
                         )}
                         style={{ marginBottom: tabName === 'Todo List' ? '1rem' : '0' }}
                       >
-                        <h3 className={`text-lg leading-6 ${post.completed ? 'line-through text-gray-500' : 'text-gray-900'}`}>
+                        <h3 className={`text-lg leading-6 ${post.completed ? 'text-gray-500' : 'text-gray-900'}`}>
                           {post.title}
                         </h3>
                         {tabName === 'Todo List' && (
