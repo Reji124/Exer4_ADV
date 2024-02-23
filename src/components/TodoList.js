@@ -56,7 +56,7 @@ const TodoList = () => {
   };
 
   return ( 
-    <div className="flex items-center justify-center h-screen" style={{ backgroundImage: 'url(/unsplash-blue.jpg)', backgroundSize: 'cover' }}>
+    <div className="flex items-center justify-center h-screen" style={{ backgroundImage: 'url(https://t4.ftcdn.net/jpg/02/93/16/45/360_F_293164580_Msy22GeO1P1mfB0l6RcjDJlDTZK91MvE.jpg)', backgroundSize: 'cover' }}>
       <div className="w-full max-w-lg px-4 py-16 sm:px-0">
         <Tab.Group onChange={(index) => setSelectedTab(index === 0 ? 'Todo List' : 'Completed')}>
           <Tab.List className="flex space-x-4 rounded-xl bg-blue-900/20 p-2 w-full">
